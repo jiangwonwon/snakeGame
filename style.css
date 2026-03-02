@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#canvas {
+  border: 5px solid lightgreen;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: lightgreen;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+.gameDescription {
+  color: rgb(255, 255, 180);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 0.5rem;
+}
+
+#score,
+#highestScore {
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.25rem;
+}
+
+#start {
+  padding: 0.25rem 0.5rem;
+  background-color: lightgoldenrodyellow;
+  font-size: 1.2rem;
+  display: block;
+  margin-top: 1rem;
+}

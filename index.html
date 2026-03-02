@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>貪食蛇遊戲</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas
+      id="canvas"
+      width="320"
+      height="320"
+      style="background-color: black"
+    ></canvas>
+    <h2>貪食蛇遊戲</h2>
+    <p class="gameDescription">
+      遊戲說明：使用鍵盤的上下左右鍵控制貪食蛇的移動，吃到紅色的食物會增加分數，吃到紫色的有毒食物會扣分。遊戲結束後可以按下「開始新遊戲」重新開始遊戲。
+    </p>
+    <button type="button" id="start" onclick="location.reload()">
+      開始新遊戲
+    </button>
+    <div class="flex-container">
+      <p id="score"></p>
+      <p id="highestScore"></p>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
