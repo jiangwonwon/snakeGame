@@ -14,10 +14,10 @@ body {
 
 #canvas {
   border: 5px solid lightgreen;
-  position: absolute;
+  /* position: absolute;
   top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 h2 {
@@ -27,11 +27,14 @@ h2 {
 }
 
 .gameDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: rgb(255, 255, 180);
   font-size: 1.2rem;
   margin-top: 0.5rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 150px;
+  padding-right: 150px;
   text-align: center;
 }
 
